@@ -1,0 +1,22 @@
+# Pulumi
+*.yaml
+
+# Analyze Traces result
+**/azure/analyzetraces/*.csv
+**/aws/analyzetraces/*csv
+
+# Data analysis
+**/*.svg
+
+# Webstorm
+.idea/
+
+# Npm
+**/node_modules
+
+# SB tool
+**/.sb
+**/logs
+**/__pycache__
+**/workload_options.js
+**/workload_options.json

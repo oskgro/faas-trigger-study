@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unused-vars": "off", // Pulumi naturally produces 'unused' variables
+        "no-console": "off",
+        "import/no-unresolved": "off"
+    },
+    "ignorePatterns": ["load_script.js", "workload_options.js"] // SB tool files
+}

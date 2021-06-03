@@ -1,0 +1,29 @@
+{
+  "name": "faas-trigger-perf",
+  "version": "1.0.0",
+  "description": "A measurement tool for cross-platform FaaS trigger performance evaluations",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint aws/ azure/",
+    "lint:fix": "eslint aws/ azure/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabecth/faas-trigger-perf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabecth/faas-trigger-perf/issues"
+  },
+  "homepage": "https://github.com/mabecth/faas-trigger-perf#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^5.1.2"
+  }
+}

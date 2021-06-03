@@ -1,0 +1,14 @@
+{
+    "name": "azure-infra",
+    "main": "index.js",
+    "dependencies": {
+        "@azure/identity": "^1.2.4",
+        "@azure/storage-blob": "^12.4.1",
+        "@azure/storage-queue": "^12.4.0",
+        "@pulumi/azure": "^3.50.0",
+        "@pulumi/azure-native": "^0.7.1",
+        "@pulumi/pulumi": "^2.0.0",
+        "applicationinsights": "^1.8.10",
+        "axios": "^0.21.1"
+    }
+}

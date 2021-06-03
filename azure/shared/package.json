@@ -1,0 +1,10 @@
+{
+    "name": "azure-shared",
+    "main": "index.js",
+    "dependencies": {
+        "@pulumi/azure": "^3.56.0",
+        "@pulumi/azure-native": "^0.7.1",
+        "@pulumi/pulumi": "^2.23.1",
+        "pulumi": "0.0.1"
+    }
+}
